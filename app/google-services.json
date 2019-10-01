@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "819902780091",
+    "firebase_url": "https://remotedb-firebase.firebaseio.com",
+    "project_id": "remotedb-firebase",
+    "storage_bucket": "remotedb-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819902780091:android:1a0435759d7a6416efcf9e",
+        "android_client_info": {
+          "package_name": "com.example.remotedb_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819902780091-ido9glo9adv16v9freiqj9gugjulg88e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.remotedb_firebase",
+            "certificate_hash": "0f54886669843ef8a2dcec932af6fb1df9c96527"
+          }
+        },
+        {
+          "client_id": "819902780091-mkb91aiq9ht5434bevc5fekqe8h5ee5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9SMU19ya57SZpkbGIKjRw-g2zEk8i_qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819902780091-mkb91aiq9ht5434bevc5fekqe8h5ee5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
