@@ -47,12 +47,18 @@ public class MainActivity extends AppCompatActivity {
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                StartSignIn();
+                StartLogIn();
             }
         });
     }
 
-    private void StartSignIn(){
+    @Override
+    protected void onStart(){
+        super.onStart();
+        mAuth.addAuthStateListener(mAuthListener);
+    }
+
+    private void StartLogIn(){
         String email = etEmail.getText().toString();
         String password = etPassword.getText().toString();
         if(TextUtils.isEmpty(email) || TextUtils.isEmpty(password)){
@@ -68,6 +74,5 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         }
-
     }
 }

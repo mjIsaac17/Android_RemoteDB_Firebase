@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="125dp"
-        android:text="@string/btn_sign_in" />
+        android:text="@string/btn_log_in" />
 
     <EditText
         android:id="@+id/etPassword"
