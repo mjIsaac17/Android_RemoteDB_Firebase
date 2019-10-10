@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".NewPlanetActivity">
+
+    <ImageView
+        android:id="@+id/ivPlanet"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivPlanet"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnSelectImage">
+    </Button>
+    <EditText
+        android:id="@+id/etPlanetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSelectImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="@string/txtPlanetName"
+        android:inputType="text">
+    </EditText>
+    <EditText
+        android:id="@+id/etPlanetDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPlanetName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:hint="@string/txtPlanetDescription"
+        android:inputType="text">
+    </EditText>
+    <Button
+        android:id="@+id/btnSavePlanet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSavePlanet"
+        android:layout_below="@id/etPlanetDescription"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true">
+    </Button>
+
+
+
+</RelativeLayout>

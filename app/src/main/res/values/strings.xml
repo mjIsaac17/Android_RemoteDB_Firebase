@@ -3,4 +3,8 @@
     <string name="et_email">Correo</string>
     <string name="et_password">Contraseña</string>
     <string name="btn_log_in">Iniciar Sesión</string>
+    <string name="btnSelectImage">Seleccionar una imágen</string>
+    <string name="txtPlanetName">Nombre del planeta</string>
+    <string name="txtPlanetDescription">Descripción</string>
+    <string name="txtSavePlanet">Guardar</string>
 </resources>
